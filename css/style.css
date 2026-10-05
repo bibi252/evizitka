@@ -1,0 +1,72 @@
+
+.dortik{
+   
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    background-color: #D8D3C9;
+    padding: 28px   
+}
+
+.alex h1{
+    padding-top: 200%;
+}
+.alex
+{
+   grid-row: span 5 / span 5;
+    grid-column-start: 2;
+   border-radius: 1rem;
+    background-color:#F5F2EA;
+    height: 100vh;
+    
+}
+.webd h1{ padding-top: 90%;
+
+}
+.webd 
+{
+     grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    border-radius: 1rem;
+    background-color: #181818;
+    color: #ffffff;
+    
+}
+.typografie h2{
+     padding-top: 55%;
+}
+.typografie 
+{
+      grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 4;
+    background-color: #F5F2EA;
+    border-radius: 1rem;
+
+}
+.thermo h1{ padding-top: 90%;
+
+}
+.thermo
+{
+        grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    background-color: #D8FF45;
+      border-radius: 1rem;
+    
+}
+.pnv h1{
+    padding-top: 45%;
+}
+.pnv
+ {
+     grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 4;
+    background-color: #6758F5;
+       border-radius: 1rem;
+         color: #ffffff;
+}
+        
