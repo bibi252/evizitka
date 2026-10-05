@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 .dortik{
    
@@ -6,67 +11,215 @@
     grid-template-rows: repeat(5, 1fr);
     gap: 8px;
     background-color: #D8D3C9;
-    padding: 28px   
+    padding: 10px;  
+    height: 100vh;
 }
 
-.alex h1{
-    padding-top: 200%;
-}
+
+
 .alex
 {
-   grid-row: span 5 / span 5;
+    grid-row: span 5 / span 5;
     grid-column-start: 2;
-   border-radius: 1rem;
+    border-radius: 1rem;
     background-color:#F5F2EA;
-    height: 100vh;
-    
+    position: relative;
 }
-.webd h1{ padding-top: 90%;
 
+.dig {
+    position: absolute;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px 10px;
+    color: #181818;
 }
+
+.aj {
+    position: absolute;
+    right: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px 10px;
+    color: #181818;
+}
+
+.alex h1 {
+    position: absolute;
+    bottom: 70px;
+    font-size: 80px;
+    padding: 5px 10px;
+}
+
+.alex p {
+    position: absolute;
+    bottom: 20px;
+    font-size: 14px;
+    padding: 5px 10px;
+    width: 85%;
+}
+
+
+
+
 .webd 
 {
-     grid-row: span 3 / span 3;
+    grid-row: span 3 / span 3;
     grid-column-start: 3;
     border-radius: 1rem;
     background-color: #181818;
     color: #ffffff;
-    
+    position: relative;
 }
-.typografie h2{
-     padding-top: 55%;
+
+.spec {
+    position: absolute;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px 10px;
+    color: white;
 }
+
+.ui {
+    position: absolute;
+    bottom: 155px;
+    font-size: 47px;
+    padding: 5px 10px;
+}
+
+.we {
+    position: absolute;
+    bottom: 50px;
+    font-size: 47px;
+    padding: 5px 10px;
+}
+
+.webd p {
+    position: absolute;
+    bottom: 20px;
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #fdf4f4c1;
+}
+
+
+
 .typografie 
 {
-      grid-row: span 2 / span 2;
+    grid-row: span 2 / span 2;
     grid-column-start: 3;
     grid-row-start: 4;
     background-color: #F5F2EA;
     border-radius: 1rem;
-
+    position: relative;
 }
-.thermo h1{ padding-top: 90%;
 
+.mn {
+    position: absolute;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px 10px;
+    color: #181818;
 }
+
+.typografie h2 {
+    position: absolute;
+    bottom: 10px;
+    font-size: 32px;
+    padding: 0px 10px;
+    width: 90%;
+}
+
+
+
+
 .thermo
 {
-        grid-row: span 3 / span 3;
+    grid-row: span 3 / span 3;
     grid-column-start: 4;
     grid-row-start: 1;
     background-color: #D8FF45;
-      border-radius: 1rem;
-    
+    border-radius: 1rem;
+    position: relative;
 }
-.pnv h1{
-    padding-top: 45%;
+
+.vyb {
+    position: absolute;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px 10px;
+    color: #181818;
 }
+
+.thermo h1 {
+    position: absolute;
+    bottom: 100px;
+    font-size: 60px;
+    padding: 5px 10px;
+}
+
+.thermo p {
+    position: absolute;
+    bottom: 55px;
+    font-size: 17px;
+    padding: 5px 10px;
+    width: 80%;
+}
+
+.pro {
+    position: absolute;
+    bottom: 20px;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #181818;
+}
+
+
+
+
 .pnv
  {
      grid-row: span 2 / span 2;
     grid-column-start: 4;
     grid-row-start: 4;
     background-color: #6758F5;
-       border-radius: 1rem;
-         color: #ffffff;
+    border-radius: 1rem;
+    color: #ffffff;
+    position: relative;
+}
+
+.kon {
+    position: absolute;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px 10px;
+    color: white;
+}
+
+.pnv h1 {
+    position: absolute;
+    bottom: 70px;
+    font-size: 45px;
+    padding: 5px 10px;
+    width: 60%;
+}
+
+.pnv p {
+    position: absolute;
+    bottom: 40px;
+    font-size: 17px;
+    padding: 5px 10px;
+}
+
+.bein {
+    position: absolute;
+    bottom: 9px;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.bein a {
+    text-decoration: none;
+    color: white;
 }
         
